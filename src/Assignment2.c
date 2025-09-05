@@ -148,7 +148,6 @@ int checkCircDependency (struct Row allInfo[], int dependentTaskId, int currentR
 
     int length = allInfo[currentRow-1].dependencies[0];
 
-
     printf("( !!!!! Check if Circular !!!!! )\n");
 
     // base case: return if the task has no dependencies
@@ -369,3 +368,4 @@ int main() {
 
 
 */
+
